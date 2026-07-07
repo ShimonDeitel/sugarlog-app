@@ -1,0 +1,42 @@
+{
+  "identifier" : "BloodSugarNote",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "sugarnote_group",
+      "localizations" : [],
+      "name" : "Blood Sugar Note Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "sugarnote_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Trend graphs, A1C estimate note, and PDF export",
+              "displayName" : "Blood Sugar Note Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.sugarnote.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Blood Sugar Note Pro Monthly",
+          "subscriptionGroupID" : "sugarnote_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
